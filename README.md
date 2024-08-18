@@ -8,7 +8,6 @@
 
 <h4 align="center">Proyecto base de <a href="https://github.com/karatelabs/karate" target="_blank">Pragma</a>.</h4>
 
-De aca en adelante encontraras las partes del readme con un pequeño ejemplo dentro de cada una de ellas, actualiza su contenido (no olvides borrar esta línea)
 
 <p align="center">
   <a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html">
@@ -47,23 +46,21 @@ Redacta aca una breve descripcion del proyecto...
   <a href="#roadmap">Roadmap</a>
 </p>
 
-El siguiente GIF es de ejemplo, si tienes uno propio reemplazalo, de lo contrario eliminalo.
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+![screenshot](images/maestro.gif)
 
 ## Topicos
 
-* Java
-* Bases de datos
-* SQL
-* Cucumber
-* Serenity
-* Selenium
+* Yaml
+* Ubuntu
+* Maestro
+* Javascript
+* Android
 
 ## Tecnologias
 ### This project required:
-- [JDK java] version 16
-- [Serenity] version 4
-- [Gradle] last version
+- [JDK java] version 11
+- [wsl] Ubuntu 22.04.4
+- [maestro] last version
 
 Nota: 
 *   Se requiere Selenium posterior a la version 4.11 para la descarga automatica de algunos drivers de los navegadores
