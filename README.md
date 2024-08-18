@@ -10,27 +10,19 @@
 
 
 <p align="center">
-  <a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html">
-    <img src="https://img.shields.io/badge/Java-11+-orange.svg" alt="Java">
+  <a href="https://ubuntu.com/desktop/wsl">
+   <img alt="Ubuntu" src="https://img.shields.io/badge/WSL-Ubuntu-orange">
   </a>
-  <a href="https://www.mysql.com/">
-    <img src="https://img.shields.io/badge/Database-MySQL-blue.svg" alt="MySQL">
+
+  <a href="https://maestro.mobile.dev/getting-started/installing-maestro">
+   <img alt="Maestro" src="https://img.shields.io/badge/Maestro-Mobile_Testing-white">
   </a>
-  <a href="https://www.postgresql.org/">
-    <img src="https://img.shields.io/badge/Database-PostgreSQL-blue.svg" alt="PostgreSQL">
+  
+  <a href="https://developer.android.com/studio?hl=es-419">
+   <img alt="Android Studio" src="https://img.shields.io/badge/Android_Studio-Emulator-blue">
+
   </a>
-  <a href="https://www.w3schools.com/sql/">
-    <img src="https://img.shields.io/badge/SQL-Fundamentals-lightgrey.svg" alt="SQL">
-  </a>
-  <a href="https://cucumber.io/">
-    <img src="https://img.shields.io/badge/Cucumber-BDD-green.svg" alt="Cucumber">
-  </a>
-  <a href="https://serenity-bdd.info/">
-    <img src="https://img.shields.io/badge/Serenity-Reporting-blueviolet.svg" alt="Serenity">
-  </a>
-  <a href="https://www.selenium.dev/">
-    <img src="https://img.shields.io/badge/Selenium-Web_Testing-brightgreen.svg" alt="Selenium">
-  </a>
+  
 </p>
 
 Redacta aca una breve descripcion del proyecto...
