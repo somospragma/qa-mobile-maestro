@@ -36,8 +36,6 @@ Maestro permite realizar pruebas funcionales y de interfaz de usuario de manera 
   <a href="#descarga">Descarga</a> •
   <a href="#instalación-y-ejecución">Instalación y ejecución</a> •
   <a href="#autores">Autores</a> •
-  <a href="#relacionados">Relacionados</a> •
-  <a href="#roadmap">Roadmap</a>
 </p>
 
 ![screenshot](images/maestro.gif)
@@ -60,20 +58,16 @@ Nota:
 *   Es necesario tener un dispositivo móvil físico (Android) o un emulador/simulador (Android/IOS) configurado correctamente.
   
 ## Consideraciones
-- Para hacer uso de la la utilidad de Base de Datos es importante 
-        que se instacie una Base de datos y se configura en el archivo de configuración ubicado en:
-
-            ./src/main/resources/configs/congig.properties
-
-        En las dependencias del proyecto esta agregada la dependencia del driver de MySQL, si no 
-        desea realizar mayores ajustes respecto al motor de BD use MySQL. Si desea usar otro motor, 
-        adiciones la dependencia del driver al build.gradle y configure este driver como observa 
-        se realizo para MySQL en: 
-    
-            ./src/main/java/utils/ConectionBD.java
-        
-        Nota: Algunos motores de BD no requieren agregar la dependencia del driver como Oracle o MSserver
-
+- Para usar el emulador que tenemos dentro de windows en Wsl (Ubuntu) necesitaremos ejecutar este comando en la terminal de windows 
+```bash
+# WSL (Ubuntu)
+export ADB_SERVER_SOCKET=tcp:192.168.1.37:5037
+```
+- Y tambien en ubuntu ejecutar este comando
+```bash
+# Powershell (Windows)
+adb -a -P 5037 nodaemon server  
+```
 ## Descarga
 Para clonar está aplicación desde la linea de comando:
 
@@ -106,16 +100,6 @@ maestro --udid=<nombre-emulador>  --host <ip> test <nombre_archivo_test>.yaml
 ## Autores
 
 
-| [<img src="https://gitlab.com/uploads/-/system/user/avatar/13437423/avatar.png?width=400" width=115><br><sub>Mauro L. Ibarra P.</sub>](https://gitlab.com/mauro.ibarrap) <br/> | [<img src="https://secure.gravatar.com/avatar/23b2db02403d79ebd356e8e8356758ec?s=192&d=identicon" width=115><br><sub>Otro autor</sub>](https://gitlab.com/) | 
+| [<img src="https://gitlab.com/uploads/-/system/user/avatar/13437423/avatar.png?width=400" width=115><br><sub>Mauro L. Ibarra P.</sub>](https://gitlab.com/mauro.ibarrap) <br/> | [<img src="https://secure.gravatar.com/avatar/23b2db02403d79ebd356e8e8356758ec?s=192&d=identicon" width=115><br><sub>Marcos Silva</sub>](https://gitlab.com/) | 
 :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-
-
-## Relacionados
-
-- [proyecto-base-serenity-bdd-screenplay-browsers-and-utilities](https://github.com/somospragma/qa-web-proyecto-base-serenity-bdd-screenplay-browsers-and-utilities)
-
-
-## Roadmap
-
-- [Guia QA](https://github.com/amitmerchant1990/pomolectron) - (En construcción) Una guia de proyectos Orientados a la Calidad de Software
 
