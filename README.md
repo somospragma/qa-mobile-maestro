@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">Proyecto base de <a href="https://github.com/karatelabs/karate" target="_blank">Pragma</a>.</h4>
+<h4 align="center">Proyecto base de <a href="https://maestro.mobile.dev/getting-started/installing-maestro" target="_blank">Pragma</a>.</h4>
 
 
 <p align="center">
@@ -25,7 +25,9 @@
   
 </p>
 
-Redacta aca una breve descripcion del proyecto...
+Este repositorio contiene un proyecto de automatización de pruebas para aplicaciones móviles utilizando Maestro, 
+una herramienta de código abierto para la automatización de flujos de trabajo en dispositivos móviles. 
+Maestro permite realizar pruebas funcionales y de interfaz de usuario de manera eficiente y sencilla en aplicaciones Android e iOS.
 
 <p align="center">
   <a href="#topicos">Topicos</a> •
